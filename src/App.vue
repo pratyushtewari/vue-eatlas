@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <model-gltf src="assets/earthLowPoly.glb"></model-gltf>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { ModelGltf } from 'vue-3d-model'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ModelGltf
   }
 }
 </script>
