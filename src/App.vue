@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <model-gltf src="assets/earthLowPoly.glb"></model-gltf>
+    <model-gltf @on-mousedown="onMouseDown" src="assets/earthLowPoly.glb"></model-gltf>
   </div>
 </template>
 
@@ -10,6 +10,11 @@ export default {
   name: 'app',
   components: {
     ModelGltf
+  },
+  methods: {
+    onMouseDown : function (event) {
+      console.log(event);
+    }
   }
 }
 </script>
