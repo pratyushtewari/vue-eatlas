@@ -1,8 +1,4 @@
-![eatlas logo](public/assets/eatlaslogo.svg)
-
 # vue-eatlas
-Project to explore prototyping the [Eatlas](https://ptewari.com/projects/eatlas/)
-
 
 ## Project setup
 ```
